@@ -73,3 +73,60 @@ phone_new = ["0726" "123" "456"]
 #8.*****isalpha method******(alphabetic method)
 # python = "python"
 # print(python.isalpha())
+
+#9.*****isdigit method******(digit method)
+# text = "python123"
+# text2 = "123445"
+# print(text.isdigit())
+# print(text2.isdigit())
+
+#10.*****isspace method******(space method)
+# text = "python"
+# text2 = " -"
+# print(text.isspace())
+# print(text2.isspace())
+
+#11.*****startswith method******
+# text = "python"
+# print(text.startswith('p'))
+
+#12.*****endswith()   method******
+# text = "python"
+# print(text.endswith('n'))
+
+#13.*****replace()   method******
+# text = "python"
+# print(text.replace('p', 'P'))
+# text = "i love python"
+# print(text.replace('python', 'Javascript'))
+
+#14.*****find() method******
+# text = "python"
+# print(text.find('t'))
+
+#*****strip() method******
+text = "  python"
+text2 = text.strip()
+print(text)
+print(text2)
+
+
+#15.****f-string******
+
+#old way of formatiing string
+string = "John"
+age = 30
+height = 5.6
+# print("Hello, {} you are {} years old and {} tall".format(string, age, height))
+
+# latest way of f-string
+print(f"Hello, {string} you are {age} years old and {height} tall")
+print(f"Hello, {string} you are {age+5} years old and {height +0.5} tall")
+print(f"Hello, {string.upper()} you are {age+5} years old and {height +0.5} tall".upper()) #capitalization
+print(f"Hello, {string.upper()} you are {age+5} years old and {height +0.5} tall") #capitalization of only sinler strings
+
+
+
+
+
+
