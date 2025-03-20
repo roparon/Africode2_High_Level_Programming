@@ -39,3 +39,31 @@ card_total = 78
 distance_to_free_shipping = 22
 items_in_card = ["Sensible shooes", "Questionable fashion choice", "items you don't need"]
 bank_account_status = "Crying"
+
+
+
+
+
+
+
+number1 = float(input("Enter first number: "))
+operator = input("+, -, *, /")
+number2 = float(input("Enter second number: "))
+
+if operator == '+':
+    result = number1 + number2
+    print(f"The result of {number1} + {number2} is {result}")
+elif operator == '-':
+    result = number1 - number2
+    print(f"The result of {number1} - {number2} is {result}")
+elif operator == '*':
+    result = number1 * number2
+    print(f"The result of {number1} * {number2} is {result}")
+elif operator == '/':
+    if number2 == 0:
+        print("Error: Division by zero is not allowed.")
+    else:
+        result = number1 / number2
+        print(f"The result of {number1} / {number2} is {result}")
+else:
+    print("Invalid operator. Please enter one of (+, -, *, /).")
