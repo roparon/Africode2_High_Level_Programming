@@ -21,9 +21,21 @@ takeout_budget = int(input('Enter your monthly takeout: ')) #4,000
 actual_takeout = int(input('Enter your actual takeout: ')) #8,000
 savings_goal = int(input('Enter your savings goal: ')) #5,000
 
-if rent > monthly_income * 0.3:
-    print('Your rent is eating your paycheck like an hungry hippo')
-elif monthly_income - rent - actual_takeout< savings_goal:
-    print('Your saving goal is more of a saving fantasy at this rate')
-else:
-    print('Your budget is actually balanced! Are you wizard?')
+# if rent > monthly_income * 0.3:
+#     print('Your rent is eating your paycheck like an hungry hippo')
+#     if takeout_budget < actual_takeout:
+#         print(f"You've blown your takeout budget by Kshs.{actual_takeout - takeout_budget}")
+# elif monthly_income - rent - actual_takeout< savings_goal:
+#     print('Your saving goal is more of a saving fantasy at this rate')
+#     print(f'Your saving goal is {savings_goal} but you are only saving {monthly_income - rent - actual_takeout}')
+# else:
+#     print('Your budget is actually balanced! Are you wizard?')
+
+
+
+#*********************Shopping card Decision tree****************
+
+card_total = 78
+distance_to_free_shipping = 22
+items_in_card = ["Sensible shooes", "Questionable fashion choice", "items you don't need"]
+bank_account_status = "Crying"
