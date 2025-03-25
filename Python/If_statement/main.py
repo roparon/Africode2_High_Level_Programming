@@ -15,11 +15,11 @@
 # else:
 #     print('You are not eligible to vote')
 
-monthly_income = int(input('Enter your monthly income: ')) #30,000
-rent = int(input('Enter your monthly rent: ')) #10,000
-takeout_budget = int(input('Enter your monthly takeout: ')) #4,000
-actual_takeout = int(input('Enter your actual takeout: ')) #8,000
-savings_goal = int(input('Enter your savings goal: ')) #5,000
+# monthly_income = int(input('Enter your monthly income: ')) #30,000
+# rent = int(input('Enter your monthly rent: ')) #10,000
+# takeout_budget = int(input('Enter your monthly takeout: ')) #4,000
+# actual_takeout = int(input('Enter your actual takeout: ')) #8,000
+# savings_goal = int(input('Enter your savings goal: ')) #5,000
 
 # if rent > monthly_income * 0.3:
 #     print('Your rent is eating your paycheck like an hungry hippo')
@@ -46,24 +46,47 @@ bank_account_status = "Crying"
 
 
 
-number1 = float(input("Enter first number: "))
-operator = input("+, -, *, /")
-number2 = float(input("Enter second number: "))
+# number1 = float(input("Enter first number: "))
+# operator = input("+, -, *, /")
+# number2 = float(input("Enter second number: "))
 
-if operator == '+':
-    result = number1 + number2
-    print(f"The result of {number1} + {number2} is {result}")
-elif operator == '-':
-    result = number1 - number2
-    print(f"The result of {number1} - {number2} is {result}")
-elif operator == '*':
-    result = number1 * number2
-    print(f"The result of {number1} * {number2} is {result}")
-elif operator == '/':
-    if number2 == 0:
-        print("Error: Division by zero is not allowed.")
-    else:
-        result = number1 / number2
-        print(f"The result of {number1} / {number2} is {result}")
-else:
-    print("Invalid operator. Please enter one of (+, -, *, /).")
+# if operator == '+':
+#     result = number1 + number2
+#     print(f"The result of {number1} + {number2} is {result}")
+# elif operator == '-':
+#     result = number1 - number2
+#     print(f"The result of {number1} - {number2} is {result}")
+# elif operator == '*':
+#     result = number1 * number2
+#     print(f"The result of {number1} * {number2} is {result}")
+# elif operator == '/':
+#     if number2 == 0:
+#         print("Error: Division by zero is not allowed.")
+#     else:
+#         result = number1 / number2
+#         print(f"The result of {number1} / {number2} is {result}")
+# else:
+#     print("Invalid operator. Please enter one of (+, -, *, /).")
+
+
+#Increment
+
+# number = int(input("Enter a number: "))
+
+# count = 1
+# while count <= 10:
+#     product = number * count
+#     print(number, "x", count, "=", product)
+#     count += 1
+
+    
+#decrement
+# number = int(input("Enter a number: "))
+
+# count = 10
+# while count >= 1:
+#     product = number * count
+#     print(number, "x", count, "=", product)
+#     count -= 1
+
+

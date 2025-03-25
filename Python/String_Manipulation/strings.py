@@ -16,8 +16,8 @@
 
 
 #*********String methods*******
-name = "john smith"
-newname = "John"
+# name = "john smith"
+# newname = "John"
 
 
 #1. capitalize METHOD
@@ -37,8 +37,8 @@ newname = "John"
 
 #4. ****Count() METHOD***
 # print(name.count('o'))
-phone = "0726-123-456"
-phone_new = ["0726" "123" "456"]
+# phone = "0726-123-456"
+# phone_new = ["0726" "123" "456"]
 
 #5.****split() METHOD***
 # new_list = name.split()
@@ -105,27 +105,27 @@ phone_new = ["0726" "123" "456"]
 # print(text.find('t'))
 
 #*****strip() method******
-text = "  python"
-text2 = text.strip()
-print(text)
-print(text2)
+# text = "  python"
+# text2 = text.strip()
+# print(text)
+# print(text2)
 
 
 #15.****f-string******
 
 #old way of formatiing string
-string = "John"
-age = 30
-height = 5.6
+# string = "John"
+# age = 30
+# height = 5.6
 # print("Hello, {} you are {} years old and {} tall".format(string, age, height))
 
 # latest way of f-string
-print(f"Hello, {string} you are {age} years old and {height} tall")
-print(f"Hello, {string} you are {age+5} years old and {height +0.5} tall")
-print(f"Hello, {string.upper()} you are {age+5} years old and {height +0.5} tall".upper()) #capitalization
-print(f"Hello, {string.upper()} you are {age+5} years old and {height +0.5} tall") #capitalization of only sinler strings
+# print(f"Hello, {string} you are {age} years old and {height} tall")
+# print(f"Hello, {string} you are {age+5} years old and {height +0.5} tall")
+# print(f"Hello, {string.upper()} you are {age+5} years old and {height +0.5} tall".upper()) #capitalization
+# print(f"Hello, {string.upper()} you are {age+5} years old and {height +0.5} tall") #capitalization of only sinler strings
 
-
+print("Hello Rop, How can ia assist you?\n" + "Do you need some python concepts?\n" + "Please lemme know about them")
 
 
 

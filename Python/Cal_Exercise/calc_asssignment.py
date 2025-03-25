@@ -13,7 +13,7 @@ product = num1 * num2
 print("The product is:", product)
 
 if num2 != 0:
-    quotient = num1 / num2
-    print("The quotient is:", quotient)
+    division = num1 / num2
+    print("The division is:", division)
 else:
     print("Sorry, you can't divide by zero!")

@@ -84,9 +84,27 @@ for student in students:
 #**************Else***************************
 #The else statement is used to execute a block of code when the loop is finished
 
-for student in students:
-    if student == "Kipngeno":
-        continue
-    print(student)
-else:
-    print("The list ends here")
+# for student in students:
+#     if student == "Kipngeno":
+#         continue
+#     print(student)
+# else:
+#     print("The list ends here")
+
+
+#**************Nested For Loop***************************
+#A nested loop is a loop inside a loop
+#The inner loop will be executed one time for each iteration of the outer loop
+
+
+# for student in students:
+#     for letter in student:
+#         print(letter) 
+
+
+#**************TASK2***************************
+#Create a multiplication table in a clear and and organised manner. Use for loop.
+
+number = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(number, "x", i, "=", number*i)
