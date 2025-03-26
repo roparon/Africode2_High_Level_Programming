@@ -28,7 +28,7 @@ def sum_num(a, b):
 # cart(4, item = "Bread", price = 200)
 
 def cost(qty, price, cost, item):
-    print(f"{qty} {item} cost: Kshs.{price} and total cost is Kshs.{qty*price}")
+    # print(f"{qty} {item} cost: Kshs.{price} and total cost is Kshs.{qty*price}")
     return cost
 
-results = cost(6, 100, 200, "Mangoes")
+# results = cost(6, 100, 200, "Mangoes")
