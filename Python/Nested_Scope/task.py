@@ -34,7 +34,7 @@
 
 
 
-# ASSIGNMENT:create a dynamic calculator using def where when you input a wrong operation it prints out an error statement, ELSE it     provides answer in a descriptive manner
+# ASSIGNMENT:create a dynamic calculator using def where when you input a wrong operation it prints out an error statement, else it     provides answer in a descriptive manner
 
 def calculator():
     num1_input = input("Enter the first number: ")
