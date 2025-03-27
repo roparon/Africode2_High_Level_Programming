@@ -36,7 +36,7 @@
 
 # ASSIGNMENT:create a dynamic calculator using def where when you input a wrong operation it prints out an error statement, else it     provides answer in a descriptive manner
 def calculator():
-    """" Prompt for the first number until valid input is provided"""
+    """ Prompt for the first number until valid input is provided"""
     while True:
         num1_input = input("Enter the first number: ")
         if num1_input.replace('.', '', 1).isdigit():
