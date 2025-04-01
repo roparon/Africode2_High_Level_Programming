@@ -8,6 +8,11 @@ class Student:
         self.courses = courses if courses is not None else []
     def pass_fail(self, passing_score=50):
         return "Pass" if self.scores >= passing_score else "Fail"
+    def is_active(self):
+        if self.courses == []:
+            return "Not Enrolled"
+        else:
+            return "Enrolled"
 dorothy = Student("Dorothy", 20, 53, "AASE09")
 johnson = Student("Johnson", 23, 46, "AASE03")
 print(f"{dorothy.name} of id {dorothy.id_number} has {dorothy.pass_fail()}")
