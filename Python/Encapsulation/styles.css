@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.typing-animation {
+    font-size: 2rem;
+    color: #333;
+    border-right: 2px solid #333; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; /* Start with no width */
+    animation: typing 4s steps(12, end), blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 12ch; /* Adjust to match the number of characters in your text */
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333;
+    }
+}
