@@ -44,11 +44,11 @@ b = open("image.jpg", "rb")
 # print(b.read())
 
 #copy the image
-with open("image2.jpg", "wb") as b:
+with open("image2.jpg", "rb") as b:
     for data in b:
         with open("copied.jpg", "wb") as f:
             f.write(data)
 
-with open("filename", "mode") as b:
+# with open("filename", "mode") as b:
     #do something with the file
-    pass
+    # pass
