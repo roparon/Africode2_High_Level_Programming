@@ -52,8 +52,17 @@
 """
 
 #***********Logical Errors*********
-def sum(a,b):
-    return a/b
-result = sum (10, 3)
-print(result)
+# def sum(a,b):
+#     return a/b
+# result = sum (10, 3)
+# print(result)
 
+try:
+    number = int(input("Enter a number: "))
+    results = 10/number
+except Exception as e:
+    print(f"Error: {e}")
+else:
+    print(results)
+finally:
+    print("Thanks for using our Calc programm")
